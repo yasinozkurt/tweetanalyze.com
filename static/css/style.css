@@ -1,0 +1,961 @@
+        @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+        body {
+            font-family: "Montserrat", sans-serif;
+            height: 325vh;
+            width: 100%;
+            background-size: cover;
+            background-position: center center;
+            background-color: #0c0224;
+        }
+        
+        .navMenu {
+            position: absolute;
+            top: 5%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        
+        .navMenu a {
+            margin: 15px;
+            color: #f6f4e6;
+            text-decoration: none;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            font-weight: 500;
+            display: inline-block;
+            width: 80px;
+            -webkit-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+        }
+        
+        .navMenu a:hover {
+            color: #fddb3a;
+        }
+        
+        .navbarMyc {
+            height: 5rem;
+            width: 100%;
+        }
+        /*000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+        
+        .mycMainContent {
+            width: 100%;
+            height: 50rem;
+        }
+        
+        .innerDiv1 {
+            width: 100%;
+            height: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 8rem;
+            margin-bottom: 15rem;
+        }
+        /* BURASI REKLAM ALANI OLARAK KULLANILABİLİR */
+        
+        .leftMostDiv {
+            background-color: black;
+            float: left;
+            width: 300px;
+            height: 300px;
+            margin-top: 18rem;
+            margin-left: 3rem;
+            margin-right: 4rem;
+            border-radius: 10px;
+            visibility: hidden;
+        }
+        
+        .leftSidedDiv {
+            border-radius: 10px;
+            color: #E8F0F2;
+            text-align: center;
+            margin-top: 10rem;
+            width: 450px;
+            height: 450px;
+            background-color: #132b31;
+            float: left;
+        }
+        
+        .rightSidedDiv {
+            border-radius: 10px;
+            margin-top: 10rem;
+            width: 450px;
+            height: 450px;
+            background-color: #132b31;
+            float: right;
+        }
+        /* BURASI REKLAM ALANI OLARAK KULLANILABİLİR */
+        
+        .rightMostDiv {
+            background-color: black;
+            float: right;
+            width: 300px;
+            height: 300px;
+            margin-top: 18rem;
+            margin-right: 3rem;
+            margin-left: 4rem;
+            border-radius: 10px;
+            visibility: hidden;
+        }
+        
+        .textSec {
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            text-align: center;
+        }
+        
+        .innerDiv2 {
+            width: 80%;
+            height: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0rem;
+            margin-bottom: auto;
+            border-radius: 10px;
+        }
+        
+        .leftSidedDiv2 {
+            border-radius: 10px;
+            color: #E8F0F2;
+            text-align: center;
+            margin-top: 10rem;
+            margin-left: 5rem;
+            width: 450px;
+            height: 450px;
+            background-color: #132b31;
+            float: left;
+        }
+        
+        .popAccount {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: #1e3035;
+            text-align: left;
+            padding-left: 20px;
+            border-radius: 10px;
+        }
+        
+        .lastpopAccount {
+            margin-top: 10px;
+        }
+        
+        .secondpopAccount {
+            margin-top: 10px;
+        }
+        
+        .imgPP {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        
+        .rightSidedDiv2 {
+            border-radius: 10px;
+            margin-top: 10rem;
+            width: 850px;
+            height: 450px;
+            background-color: #132b31;
+            margin-right: 5rem;
+            float: right;
+        }
+        
+        .inputC {
+            margin-left: 30px;
+            margin-right: 15px;
+            background-color: white;
+            height: 150px;
+            width: 250px;
+            border-color: black;
+            border: 0.5px;
+            border-radius: 4%;
+            border-style: solid;
+            color: black;
+        }
+        
+        .resultMyc {
+            text-align: center;
+            height: 160px;
+            width: 250px;
+            background-color: #7952B3;
+            margin-left: 30px;
+            border-radius: 4%;
+            color: white;
+        }
+        
+        .leftİnner2 {
+            height: 250px;
+            color: white;
+        }
+        
+        .lineMyc {
+            width: 360px;
+            margin-left: 20px;
+            margin-right: 20px;
+            border-style: solid;
+            border-bottom: none;
+            border-color: darkgrey;
+            margin-bottom: 10px;
+        }
+        
+        .TextAnalysisMyc {
+            text-align: center;
+            padding-top: 25px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        .mycButton {
+            background-color: #7952B3;
+        }
+        
+        .addedDiv {
+            margin-bottom: 35px;
+            height: 40px;
+            width: 100%;
+            text-align: center;
+            font-size: large;
+            color: white;
+            margin-top: 3rem;
+        }
+        
+        .twAnalysisMyc {
+            width: 150px;
+            height: 50px;
+            margin-top: 2rem;
+            margin-left: 3.5rem;
+        }
+        
+        .PpTw {
+            height: auto;
+            width: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: #7952B3;
+            border-radius: 2%;
+            float: right;
+            margin-right: 30px;
+            margin-top: 20px;
+        }
+        
+        .resultTw {
+            width: 400px;
+            height: 165px;
+            background-color: #7952B3;
+            border-radius: 2%;
+            margin-top: 60px;
+            margin-left: 30px;
+            text-align: center;
+        }
+        
+        .formSec {
+            display: inline-block;
+        }
+        
+        .lineMyc {
+            width: 85%;
+            margin-left: auto;
+            margin-right: auto;
+            color: #fddb3a;
+        }
+        
+        .explMyc {
+            color: white;
+            width: 70%;
+            height: auto;
+            background-color: #0F044C;
+            border-radius: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 60px;
+            margin-bottom: 50px;
+            text-align: center;
+            padding-top: 30px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        .innerDiv3 {
+            width: 95%;
+            border-radius: 10px;
+            background-color: #0F044C;
+            height: 20rem;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10rem;
+            margin-bottom: 5rem;
+        }
+        
+        .sendText {
+            color: white;
+            padding-top: 15px;
+        }
+        
+        .sendText2 {
+            color: white;
+            padding-top: 5px;
+        }
+        
+        .liningMyc {
+            line-height: 32px;
+            padding-bottom: 15px;
+        }
+        /* Burada ikinci sayfa stilleri başlar*/
+        
+        .goToTweetSecLink {
+            display: block;
+            width: 60%;
+            height: 450px;
+            background-color: #132b31;
+            border-radius: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            text-decoration: none;
+            color: white;
+        }
+        
+        .goToTweetSec {
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+            height: 500px;
+            margin-top: 10rem;
+        }
+        
+        .goToTweetSecLink:hover {
+            background-color: #042027;
+        }
+        
+        .tExpl {
+            float: right;
+            margin-top: 2rem;
+            margin-right: 1rem;
+            color: white;
+            font-size: larger;
+        }
+        
+        .thirdDiv {
+            width: 90%;
+            height: 6rem;
+            background-color: #1e3035;
+            border-radius: 10px;
+        }
+        
+        .miranda {
+            margin-top: 1.5rem;
+            margin-left: 10px;
+        }
+        
+        .fourthdiv {
+            float: right;
+            margin-top: 2rem;
+            margin-right: 1rem;
+        }
+        
+        .innerDiv12 {
+            margin-top: 4rem;
+            margin-bottom: 5rem;
+            height: 600px;
+        }
+        
+        .expl2 {
+            height: auto;
+            background-color: #f6f4e6e7;
+            color: black;
+        }
+        
+        .bottomDiv {
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 4rem;
+            width: 80%;
+            height: auto;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: whitesmoke;
+            border-radius: 10px;
+            color: rgba(0, 0, 0, 0.678)
+        }
+        
+        .imgTwitter {
+            height: 200px;
+            width: 200px;
+        }
+        
+        .imgTwitterD {
+            display: inline-block;
+        }
+        /* Burada ikinci sayfa stilleri biter*/
+        /*000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+        /* Floating Social Media Bar Style Starts Here */
+        
+        .fl-fl {
+            background: #0F044C;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            padding: 4px;
+            width: 190px;
+            position: fixed;
+            right: -160px;
+            z-index: 1000;
+            font: normal normal 10px Arial;
+            -webkit-transition: all .25s ease;
+            -moz-transition: all .25s ease;
+            -ms-transition: all .25s ease;
+            -o-transition: all .25s ease;
+            transition: all .25s ease;
+        }
+        
+        .fa {
+            font-size: 20px;
+            color: #fff;
+            padding: 10px 0;
+            width: 40px;
+            margin-left: 8px;
+        }
+        
+        .fl-fl:hover {
+            right: 0;
+        }
+        
+        .fl-fl a {
+            color: #fff !important;
+            text-decoration: none;
+            text-align: center;
+            line-height: 43px!important;
+            vertical-align: top!important;
+        }
+        
+        .float-fb {
+            top: 160px;
+        }
+        
+        .float-tw {
+            top: 215px;
+        }
+        
+        .float-gp {
+            top: 270px;
+        }
+        
+        .float-rs {
+            top: 325px;
+        }
+        
+        .float-ig {
+            top: 380px;
+        }
+        
+        .float-pn {
+            top: 435px;
+        }
+        /* Floating Social Media Bar Style Ends Here */
+        /*000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+        /*footer*/
+        
+        .col_white_amrc {
+            color: #FFF;
+        }
+        
+        footer {
+            position: relative;
+            bottom: 0px;
+            width: 100%;
+            background-color: #787A91;
+            min-height: 250px;
+            padding: 10px 0px 25px 0px;
+        }
+        
+        .pt2 {
+            padding-top: 40px;
+            margin-bottom: 20px;
+        }
+        
+        footer p {
+            font-size: 13px;
+            color: #CCC;
+            padding-bottom: 0px;
+            margin-bottom: 8px;
+        }
+        
+        .mb10 {
+            padding-bottom: 15px;
+        }
+        
+        .footer_ul_amrc {
+            margin: 0px;
+            list-style-type: none;
+            font-size: 14px;
+            padding: 0px 0px 10px 0px;
+        }
+        
+        .footer_ul_amrc li {
+            padding: 0px 0px 5px 0px;
+        }
+        
+        .footer_ul_amrc li a {
+            color: #CCC;
+        }
+        
+        .footer_ul_amrc li a:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .fleft {
+            float: left;
+        }
+        
+        .padding-right {
+            padding-right: 10px;
+        }
+        
+        .footer_ul2_amrc {
+            margin: 0px;
+            list-style-type: none;
+            padding: 0px;
+        }
+        
+        .footer_ul2_amrc li p {
+            display: table;
+        }
+        
+        .footer_ul2_amrc li a:hover {
+            text-decoration: none;
+        }
+        
+        .footer_ul2_amrc li i {
+            margin-top: 5px;
+        }
+        
+        .bottom_border {
+            border-bottom: 1px solid #323f45;
+            padding-bottom: 20px;
+        }
+        
+        .foote_bottom_ul_amrc {
+            list-style-type: none;
+            padding: 0px;
+            display: table;
+            margin-top: 10px;
+            margin-right: auto;
+            margin-bottom: 10px;
+            margin-left: auto;
+        }
+        
+        .foote_bottom_ul_amrc li {
+            display: inline;
+        }
+        
+        .foote_bottom_ul_amrc li a {
+            color: #999;
+            margin: 0 12px;
+        }
+        
+        .social_footer_ul {
+            display: table;
+            margin: 15px auto 0 auto;
+            list-style-type: none;
+        }
+        
+        .social_footer_ul li {
+            padding-left: 20px;
+            padding-top: 10px;
+            float: left;
+        }
+        
+        .social_footer_ul li a {
+            color: #CCC;
+            border: 1px solid #CCC;
+            padding: 8px;
+            border-radius: 50%;
+        }
+        
+        .social_footer_ul li i {
+            width: 20px;
+            height: 20px;
+            text-align: center;
+        }
+        /*000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+        
+        @media screen and (max-width:1850px) {
+            .tExpl {
+                float: none;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .thirdDiv {
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .fourthdiv {
+                margin-right: 20%;
+            }
+            .freeExpl {
+                text-align: center;
+                margin-left: 4px;
+                margin-right: 4px;
+            }
+            .imgTwitterD {
+                width: 100%;
+            }
+            .rightMostDiv {
+                height: 220px;
+                width: 220px;
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+            .leftMostDiv {
+                height: 220px;
+                width: 220px;
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+            .rightSidedDiv {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .leftSidedDiv {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .leftSidedDiv2 {
+                border-radius: 10px;
+                color: #E8F0F2;
+                text-align: center;
+                margin-top: 10rem;
+                margin-left: 2rem;
+                width: 20%;
+                height: 420px;
+                background-color: #132b31;
+                float: left;
+            }
+            .rightSidedDiv2 {
+                border-radius: 10px;
+                margin-top: 10rem;
+                width: 800px;
+                height: 400px;
+                background-color: #132b31;
+                margin-right: 2rem;
+                float: right;
+            }
+            .inputC {
+                margin-left: 30px;
+                margin-right: 15px;
+                background-color: white;
+                height: 150px;
+                width: 220px;
+                border-color: black;
+                border: 0.5px;
+                border-radius: 4%;
+                border-style: solid;
+                color: black;
+            }
+            .resultMyc {
+                text-align: center;
+                height: 160px;
+                width: 220px;
+                background-color: #7952B3;
+                margin-left: 30px;
+                border-radius: 4%;
+                color: white;
+            }
+            .twAnalysisMyc {
+                width: 100px;
+                height: 50px;
+                margin-top: 2rem;
+                margin-left: 3.5rem;
+            }
+            .expl2 {
+                height: auto;
+            }
+            .goToTweetSec {
+                height: 650px;
+            }
+            .goToTweetSecLink {
+                padding-bottom: 50px;
+                height: 650px;
+            }
+            .imgTwitter {
+                display: block;
+                height: 150px;
+                width: 150px;
+                margin: auto;
+            }
+        }
+        
+        @media screen and (max-width:1430px) {
+            /* BURADA SAĞ VE SOL DİVLER YUKARI ÇIKARILSIN */
+            .goToTweetSec {
+                width: 75%;
+                height: auto;
+                padding-bottom: 50px;
+            }
+            .goToTweetSecLink {
+                width: 75%;
+                height: auto;
+                padding-bottom: 50px;
+            }
+            .innerDiv1 {
+                height: auto;
+                margin-bottom: 8rem;
+            }
+            .rightSidedDiv {
+                float: none;
+                margin-top: 3rem;
+                margin-left: 40%;
+            }
+            .leftMostDiv {
+                margin-top: 3rem;
+                margin-right: auto;
+                margin-left: auto;
+                float: left;
+                margin-left: 2rem;
+            }
+            .leftSidedDiv {
+                float: none;
+                margin-top: 3rem;
+                margin-left: 40%;
+            }
+            .rightMostDiv {
+                margin-top: 3rem;
+                margin-right: auto;
+                margin-left: auto;
+                float: left;
+                margin-left: 2rem;
+            }
+            .innerDiv2 {
+                width: 95%;
+            }
+            .explMyc {
+                height: auto;
+            }
+            .leftSidedDiv2 {
+                width: 95%;
+                height: auto;
+                float: none;
+                margin-right: auto;
+                margin-left: auto;
+                margin-top: 3rem;
+            }
+            .rightSidedDiv2 {
+                margin-right: 18px;
+                margin-left: 8px;
+                width: 95%;
+                height: 55%;
+                margin-top: 2rem;
+            }
+            .resultTw {
+                width: 350px;
+            }
+            .innerDiv3 {
+                margin-top: 5rem;
+                height: 25rem;
+            }
+            .addedDiv {
+                margin-top: 0px;
+                margin-bottom: 10px;
+            }
+            .expl2 {
+                height: auto;
+            }
+        }
+        
+        @media screen and (max-width:1000px) {
+            .fourthdiv {
+                margin-right: 15px;
+            }
+        }
+        
+        @media screen and (max-width:770px) {
+            /* Mobile Mode*/
+            .goToTweetSec {
+                width: 90%;
+            }
+            .goToTweetSecLink {
+                width: 90%;
+            }
+            .PpTw {
+                float: none;
+                display: none;
+            }
+            .rightMostDiv {
+                float: none;
+                margin: auto;
+                margin-top: 1rem;
+            }
+            .leftMostDiv {
+                float: none;
+                margin: auto;
+                display: none;
+            }
+            .rightSidedDiv {
+                margin: auto;
+                margin-top: 1rem;
+            }
+            .leftSidedDiv {
+                margin: auto;
+                margin-top: 21rem;
+            }
+            .explMyc {
+                width: 85%;
+                height: auto;
+            }
+            .expl2 {
+                height: auto;
+            }
+            .addedDiv {
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-bottom: 8rem;
+            }
+            .resultMyc {
+                margin-left: 30px;
+            }
+            .containerMy {
+                height: 420vh;
+            }
+            body {
+                height: 380vh;
+            }
+            .innerDiv3 {
+                height: auto;
+            }
+            .rightSidedDiv2 {
+                margin-right: 10px;
+            }
+        }
+        
+        @media screen and (max-width:550px) {
+            .imgPP {
+                width: 40px;
+                height: 40px;
+            }
+            .thirdDiv {
+                width: 85%;
+            }
+            .goToTweetSec {
+                width: 95%;
+            }
+            .goToTweetSecLink {
+                width: 95%;
+            }
+        }
+        
+        @media screen and (max-width:450px) {
+            .fourthdiv {
+                float: none;
+                margin: auto;
+                text-align: center;
+            }
+            .thirdDiv {
+                height: 7rem;
+                align-items: center;
+            }
+            .imgPP {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 15px;
+                margin-bottom: 5px;
+            }
+            .goToTweetSec {
+                width: 95%;
+            }
+            .goToTweetSecLink {
+                width: 95%;
+            }
+            .hr.lineMyc {
+                margin-bottom: 5px;
+                margin-top: 5px;
+            }
+            .addedDiv {
+                font-size: medium;
+            }
+            .mycButton {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .resultMyc {
+                width: 60%;
+            }
+            .inputC {
+                width: 50%;
+                height: 120px;
+            }
+            .twAnalysisMyc {
+                height: 50px;
+                width: 40%;
+                margin-left: 30px;
+            }
+            .innerDiv1 {
+                width: 100%;
+            }
+            .innerDiv2 {
+                height: 95%;
+                width: 100%;
+                margin-top: 1rem;
+            }
+            .explMyc {
+                height: auto;
+            }
+            .leftSidedDiv {
+                width: 95%;
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;
+                padding-bottom: 15px;
+                margin-bottom: 1rem;
+            }
+            .rightSidedDiv {
+                width: 95%;
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;
+                padding-bottom: 15px;
+                margin-top: 1rem;
+            }
+            .rightSidedDiv2 {
+                height: 60%;
+                width: 95%;
+                margin-left: auto;
+            }
+            .leftSidedDiv2 {
+                width: 95%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .resultTw {
+                width: 60%;
+            }
+            .textSec {
+                width: auto;
+                height: 100px;
+            }
+            .containerMy {
+                height: 440vh;
+            }
+            body {
+                height: 400vh;
+            }
+            .liningMyc {
+                line-height: 30px;
+            }
+            .textSec {
+                height: auto;
+            }
+            .navMenu a {
+                margin: 10px;
+                font-size: 0.9em;
+                font-weight: 400;
+                display: inline-block;
+                width: 20%;
+                -webkit-transition: all 0.2s ease-in-out;
+                transition: all 0.2s ease-in-out;
+            }
+        }
+        /*000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
